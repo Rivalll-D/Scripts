@@ -33,7 +33,7 @@ public class PlayerLife : MonoBehaviour
     {
         gameOverText.gameObject.SetActive(true);
         restartButton.gameObject.SetActive(true);
-        Invoke(nameof(RestartGame), 1.3f);
+        // Invoke(nameof(RestartGame), 1.3f);
         isGameActive = false;
         deathSound.Play();
 
